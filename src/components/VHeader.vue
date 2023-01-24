@@ -2,11 +2,6 @@
 import VLogo from '@/icons/VLogo.vue';
 import VButton from './VButton.vue';
 import VNav from './VNav.vue';
-import { useCartStore } from "../stores/cart";
-const store = useCartStore();
-const resetCart = () =>{
-  store.resetItems
-}
 </script>
 
 <template>
@@ -18,7 +13,7 @@ const resetCart = () =>{
       <VNav/>
       <div class="search">
         <input placeholder="Поиск по названию картины"/>
-        <VButton @click="resetCart()">Найти</VButton>
+        <VButton>Найти</VButton>
       </div>
     </div>
   </header>
