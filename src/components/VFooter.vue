@@ -35,6 +35,7 @@ footer{
 .contacts{
   display: flex;
   flex-direction: row;
+  margin-left: auto;
 }
 
 .contacts__item:not(:last-child){
@@ -43,25 +44,6 @@ footer{
 
 .contacts__item *:first-child{
   margin-right: 5px;
-}
-
-.search{
-  margin-left: auto;
-}
-
-.search input{
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 150%;
-  border: 1px solid #E1E1E1;
-  background: none;
-  color: #9F9F9F;
-  padding: 12px 40px 12px 20px;
-}
-
-.search input:focus {
-  border-color: #B5B5B5;
-  color: #343030;
 }
 
 .navbar{
